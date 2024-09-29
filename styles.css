@@ -1,0 +1,53 @@
+.top-bar {
+    background-color: rgb(255, 255, 192);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.top-bar a {
+    color: #3366CC;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.top-bar a:hover {
+    text-decoration: underline;
+}
+
+.centered-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+body {
+    padding-top: 60px;
+}
+
+.large-name {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.small-text {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.divider {
+    border: none;
+    height: 2px;
+    background-color: #000;
+    margin: 20px 0;
+}
+
+.container {
+    padding: 0;
+}
